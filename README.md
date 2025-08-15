@@ -1,5 +1,7 @@
 #Lectura de cadena RNA
+
 ##Contexto
+
 En genética clínica, la detección de mutaciones puntuales en cadenas de RNA 
 permite diagnosticar enfermedades hereditarias como la anemia falciforme. 
 En este caso, un transmisor biomédico envía secuencias de mRNA codificadas 
@@ -8,10 +10,10 @@ medición. La mutación clásica de anemia falciforme implica el cambio del
 codón GAG (ácido glutámico) a GUG (valina) en el gen HBB.  
 Se recibe una única cadena que contiene varias secuencias separadas por /data: 
 El programa debe: 
-• Extraer todas las secuencias posteriores a /data:. 
-• Tomar la primera secuencia como referencia. 
-• Comparar todas las demás con la de referencia para identificar diferencias. 
-• Imprimir el número total de secuencias, la secuencia de referencia, las 
+  • Extraer todas las secuencias posteriores a /data:. 
+  • Tomar la primera secuencia como referencia. 
+  • Comparar todas las demás con la de referencia para identificar diferencias. 
+  • Imprimir el número total de secuencias, la secuencia de referencia, las 
 secuencias diferentes y un diagnóstico: 
 o Si existe al menos una secuencia diferente → Imprimir “Probable 
 enfermedad hereditaria”. 
